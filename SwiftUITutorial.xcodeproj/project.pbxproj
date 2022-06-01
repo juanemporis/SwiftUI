@@ -11,6 +11,7 @@
 		C89636AD2847E87900248140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89636AC2847E87900248140 /* ContentView.swift */; };
 		C89636AF2847E87A00248140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89636AE2847E87A00248140 /* Assets.xcassets */; };
 		C89636B22847E87A00248140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89636B12847E87A00248140 /* Preview Assets.xcassets */; };
+		C8A32D9528480A3C003C89AB /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A32D9428480A3C003C89AB /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C89636AC2847E87900248140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C89636AE2847E87A00248140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C89636B12847E87A00248140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8A32D9428480A3C003C89AB /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C89636AA2847E87900248140 /* SwiftUITutorialApp.swift */,
 				C89636AC2847E87900248140 /* ContentView.swift */,
+				C8A32D9428480A3C003C89AB /* ImageView.swift */,
 				C89636AE2847E87A00248140 /* Assets.xcassets */,
 				C89636B02847E87A00248140 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A32D9528480A3C003C89AB /* ImageView.swift in Sources */,
 				C89636AD2847E87900248140 /* ContentView.swift in Sources */,
 				C89636AB2847E87900248140 /* SwiftUITutorialApp.swift in Sources */,
 			);

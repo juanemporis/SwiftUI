@@ -53,7 +53,7 @@ struct ContentView: View {
                 .background(Color .green)//Agregara un color de fondo del texto
                 
             }
-            VStack{
+            VStack{ //En cada VStack solo se pueden agregar 10 elementos
             Text("6")
             Text("7")
             Text("8")
