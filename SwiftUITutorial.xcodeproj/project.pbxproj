@@ -14,6 +14,9 @@
 		C8A32D9528480A3C003C89AB /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A32D9428480A3C003C89AB /* ImageView.swift */; };
 		C8A32D9728482466003C89AB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A32D9628482466003C89AB /* MapView.swift */; };
 		C8A32D99284829A2003C89AB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A32D98284829A2003C89AB /* MainView.swift */; };
+		C8A6925328496F930012CB93 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A6925228496F930012CB93 /* Programmer.swift */; };
+		C8A692562849703B0012CB93 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A692552849703B0012CB93 /* RowView.swift */; };
+		C8A69258284974370012CB93 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A69257284974370012CB93 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		C8A32D9428480A3C003C89AB /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		C8A32D9628482466003C89AB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C8A32D98284829A2003C89AB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C8A6925228496F930012CB93 /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		C8A692552849703B0012CB93 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		C8A69257284974370012CB93 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				C89636AA2847E87900248140 /* SwiftUITutorialApp.swift */,
-				C89636AC2847E87900248140 /* ContentView.swift */,
-				C8A32D9428480A3C003C89AB /* ImageView.swift */,
-				C8A32D9628482466003C89AB /* MapView.swift */,
-				C8A32D98284829A2003C89AB /* MainView.swift */,
+				C8A6925128496F760012CB93 /* Data */,
+				C8A6925428496F9A0012CB93 /* VIew */,
 				C89636AE2847E87A00248140 /* Assets.xcassets */,
 				C89636B02847E87A00248140 /* Preview Content */,
 			);
@@ -74,6 +78,27 @@
 				C89636B12847E87A00248140 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8A6925128496F760012CB93 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C8A6925228496F930012CB93 /* Programmer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C8A6925428496F9A0012CB93 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				C8A69257284974370012CB93 /* ListView.swift */,
+				C8A692552849703B0012CB93 /* RowView.swift */,
+				C8A32D98284829A2003C89AB /* MainView.swift */,
+				C8A32D9628482466003C89AB /* MapView.swift */,
+				C8A32D9428480A3C003C89AB /* ImageView.swift */,
+				C89636AC2847E87900248140 /* ContentView.swift */,
+			);
+			path = VIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A69258284974370012CB93 /* ListView.swift in Sources */,
 				C8A32D9528480A3C003C89AB /* ImageView.swift in Sources */,
+				C8A6925328496F930012CB93 /* Programmer.swift in Sources */,
+				C8A692562849703B0012CB93 /* RowView.swift in Sources */,
 				C8A32D9728482466003C89AB /* MapView.swift in Sources */,
 				C89636AD2847E87900248140 /* ContentView.swift in Sources */,
 				C8A32D99284829A2003C89AB /* MainView.swift in Sources */,
