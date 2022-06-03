@@ -17,6 +17,7 @@
 		C8A6925328496F930012CB93 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A6925228496F930012CB93 /* Programmer.swift */; };
 		C8A692562849703B0012CB93 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A692552849703B0012CB93 /* RowView.swift */; };
 		C8A69258284974370012CB93 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A69257284974370012CB93 /* ListView.swift */; };
+		C8A6925A28499B430012CB93 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A6925928499B430012CB93 /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C8A6925228496F930012CB93 /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
 		C8A692552849703B0012CB93 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		C8A69257284974370012CB93 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C8A6925928499B430012CB93 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C8A32D9628482466003C89AB /* MapView.swift */,
 				C8A32D9428480A3C003C89AB /* ImageView.swift */,
 				C89636AC2847E87900248140 /* ContentView.swift */,
+				C8A6925928499B430012CB93 /* ListDetailView.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C8A692562849703B0012CB93 /* RowView.swift in Sources */,
 				C8A32D9728482466003C89AB /* MapView.swift in Sources */,
 				C89636AD2847E87900248140 /* ContentView.swift in Sources */,
+				C8A6925A28499B430012CB93 /* ListDetailView.swift in Sources */,
 				C8A32D99284829A2003C89AB /* MainView.swift in Sources */,
 				C89636AB2847E87900248140 /* SwiftUITutorialApp.swift in Sources */,
 			);

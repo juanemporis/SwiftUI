@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Se crea una struct programador con sus caracteristicas 
 struct Programmer {
     var id: Int
     var name : String

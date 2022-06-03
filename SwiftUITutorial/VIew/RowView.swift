@@ -13,12 +13,13 @@ struct RowView: View {
     
     var body: some View {
         
+        //Se crea el avatar programador dandole altura y la separacion
         HStack{
             programmer.avatar
                 .resizable()
                 .frame(width: 40, height: 40)
                 .padding()
-            
+            //Se le agrega el nombre del programador y el lenguaje que maneja
             VStack(alignment: .leading){
                 Text(programmer.name)
                     .font(.title)
@@ -29,7 +30,7 @@ struct RowView: View {
         }
     }
 }
-
+//Se le da los datos correspondientes al programador 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
         RowView(programmer: Programmer(id: 1, name: "Juan astañeda", languages:"Swift, Kotlin", avatar: Image(systemName: "person.fill")))
